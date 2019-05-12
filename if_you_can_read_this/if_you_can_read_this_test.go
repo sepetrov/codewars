@@ -9,9 +9,9 @@ import (
 	kata "github.com/sepetrov/codewars/if_you_can_read_this"
 )
 
-func TestMaxRot(t *testing.T) {
+func TestToNato(t *testing.T) {
 	RegisterFailHandler(Fail)
-	RunSpecs(t, "Rotate for a Max")
+	RunSpecs(t, "If you can read this...")
 }
 
 var _ = Describe("Tests using hard-coded strings", func() {
