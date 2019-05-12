@@ -1,7 +1,7 @@
 # CodeWars
 
 [![Build Status](https://travis-ci.org/sepetrov/codewars.svg?branch=master)](https://travis-ci.org/sepetrov/codewars) 
-![CodeWars][1]
+[![CodeWars][1]][2]
 
 This repository contains my solutions to [CodeWars][2] challenges.
 

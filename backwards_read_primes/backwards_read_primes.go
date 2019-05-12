@@ -51,6 +51,7 @@ func BackwardsPrime(start int, stop int) []int {
 
 func IsPrime(n int) bool {
 	// See algorithm here https://whatis.techtarget.com/definition/prime-number.
+	// Should have used https://golang.org/src/math/big/prime.go instead.
 	for m := math.Ceil(math.Sqrt(float64(n))); m > 1; m-- {
 		if math.Mod(float64(n), m) == 0 {
 			return false
